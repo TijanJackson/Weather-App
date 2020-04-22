@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    Weather App
+  </h1>
+  <form>
+    <label>
+      Type a City Name: 
+    </label>
+    <input
+      id="weather"
+      type="text"
+    />
+  </form>
+  <button
+    onClick={[Function]}
+  >
+    Check temperature
+  </button>
+  <h3>
+    Temp: 
+    NaN
+    °C
+  </h3>
+  <h3>
+    Min Temp: 
+    NaN
+    °C
+  </h3>
+</div>
+`;
